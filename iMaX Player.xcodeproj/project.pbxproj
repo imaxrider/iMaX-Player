@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189419E36F329ADBB5E5D013 /* Pods_iMaX_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3017117004FC78973FA33003 /* Pods_iMaX_Player.framework */; };
+		BC352C581E5F35AD0061DD45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC352C571E5F35AD0061DD45 /* GoogleService-Info.plist */; };
+		BC3BC6241E471AAB00B6CBB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3BC6231E471AAB00B6CBB9 /* AppDelegate.swift */; };
+		BC3BC6261E471AAB00B6CBB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3BC6251E471AAB00B6CBB9 /* ViewController.swift */; };
+		BC3BC6291E471AAB00B6CBB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3BC6271E471AAB00B6CBB9 /* Main.storyboard */; };
+		BC3BC62B1E471AAB00B6CBB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3BC62A1E471AAB00B6CBB9 /* Assets.xcassets */; };
+		BC3BC62E1E471AAB00B6CBB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3BC62C1E471AAB00B6CBB9 /* LaunchScreen.storyboard */; };
+		BC6C3E731E609AAC00E896AA /* IMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6C3E721E609AAC00E896AA /* IMTextField.swift */; };
+		BC6C3E751E609B4900E896AA /* IMTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6C3E741E609B4900E896AA /* IMTextField.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3017117004FC78973FA33003 /* Pods_iMaX_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMaX_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CC8DC1D398A5A35BDCB062 /* Pods-iMaX Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMaX Player.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMaX Player/Pods-iMaX Player.debug.xcconfig"; sourceTree = "<group>"; };
+		BC352C571E5F35AD0061DD45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC3BC6201E471AAB00B6CBB9 /* iMaX Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iMaX Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3BC6231E471AAB00B6CBB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC3BC6251E471AAB00B6CBB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC3BC6281E471AAB00B6CBB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC3BC62A1E471AAB00B6CBB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC3BC62D1E471AAB00B6CBB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC3BC62F1E471AAB00B6CBB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6C3E721E609AAC00E896AA /* IMTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMTextField.swift; sourceTree = "<group>"; };
+		BC6C3E741E609B4900E896AA /* IMTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IMTextField.xib; sourceTree = "<group>"; };
+		FB27B12AD40A8004FD106D1E /* Pods-iMaX Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMaX Player.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMaX Player/Pods-iMaX Player.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC3BC61D1E471AAB00B6CBB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189419E36F329ADBB5E5D013 /* Pods_iMaX_Player.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0835B3AED1A718687602C5CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4CC8DC1D398A5A35BDCB062 /* Pods-iMaX Player.debug.xcconfig */,
+				FB27B12AD40A8004FD106D1E /* Pods-iMaX Player.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3BC6171E471AAB00B6CBB9 = {
+			isa = PBXGroup;
+			children = (
+				BC3BC6221E471AAB00B6CBB9 /* iMaX Player */,
+				BC3BC6211E471AAB00B6CBB9 /* Products */,
+				0835B3AED1A718687602C5CC /* Pods */,
+				D066A7F1B831EA6B42479CE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3BC6211E471AAB00B6CBB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3BC6201E471AAB00B6CBB9 /* iMaX Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3BC6221E471AAB00B6CBB9 /* iMaX Player */ = {
+			isa = PBXGroup;
+			children = (
+				BC6C3E711E609A7600E896AA /* API Textfield */,
+				BC3BC6231E471AAB00B6CBB9 /* AppDelegate.swift */,
+				BC3BC6251E471AAB00B6CBB9 /* ViewController.swift */,
+				BC3BC6271E471AAB00B6CBB9 /* Main.storyboard */,
+				BC3BC62A1E471AAB00B6CBB9 /* Assets.xcassets */,
+				BC3BC62C1E471AAB00B6CBB9 /* LaunchScreen.storyboard */,
+				BC352C571E5F35AD0061DD45 /* GoogleService-Info.plist */,
+				BC3BC62F1E471AAB00B6CBB9 /* Info.plist */,
+			);
+			path = "iMaX Player";
+			sourceTree = "<group>";
+		};
+		BC6C3E711E609A7600E896AA /* API Textfield */ = {
+			isa = PBXGroup;
+			children = (
+				BC6C3E721E609AAC00E896AA /* IMTextField.swift */,
+				BC6C3E741E609B4900E896AA /* IMTextField.xib */,
+			);
+			name = "API Textfield";
+			sourceTree = "<group>";
+		};
+		D066A7F1B831EA6B42479CE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3017117004FC78973FA33003 /* Pods_iMaX_Player.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC3BC61F1E471AAB00B6CBB9 /* iMaX Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3BC6321E471AAB00B6CBB9 /* Build configuration list for PBXNativeTarget "iMaX Player" */;
+			buildPhases = (
+				482CE7D2C17E30DDF1D3406C /* [CP] Check Pods Manifest.lock */,
+				BC3BC61C1E471AAB00B6CBB9 /* Sources */,
+				BC3BC61D1E471AAB00B6CBB9 /* Frameworks */,
+				BC3BC61E1E471AAB00B6CBB9 /* Resources */,
+				484425CE822A63C1C6859E37 /* [CP] Embed Pods Frameworks */,
+				8B2985082BEC3EDCAE1016F8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iMaX Player";
+			productName = "iMaX Player";
+			productReference = BC3BC6201E471AAB00B6CBB9 /* iMaX Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC3BC6181E471AAB00B6CBB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rachanon Kwampien";
+				TargetAttributes = {
+					BC3BC61F1E471AAB00B6CBB9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 98Z7323ZL5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BC3BC61B1E471AAB00B6CBB9 /* Build configuration list for PBXProject "iMaX Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC3BC6171E471AAB00B6CBB9;
+			productRefGroup = BC3BC6211E471AAB00B6CBB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC3BC61F1E471AAB00B6CBB9 /* iMaX Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC3BC61E1E471AAB00B6CBB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6C3E751E609B4900E896AA /* IMTextField.xib in Resources */,
+				BC3BC62E1E471AAB00B6CBB9 /* LaunchScreen.storyboard in Resources */,
+				BC352C581E5F35AD0061DD45 /* GoogleService-Info.plist in Resources */,
+				BC3BC62B1E471AAB00B6CBB9 /* Assets.xcassets in Resources */,
+				BC3BC6291E471AAB00B6CBB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		482CE7D2C17E30DDF1D3406C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		484425CE822A63C1C6859E37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMaX Player/Pods-iMaX Player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B2985082BEC3EDCAE1016F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMaX Player/Pods-iMaX Player-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC3BC61C1E471AAB00B6CBB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3BC6261E471AAB00B6CBB9 /* ViewController.swift in Sources */,
+				BC3BC6241E471AAB00B6CBB9 /* AppDelegate.swift in Sources */,
+				BC6C3E731E609AAC00E896AA /* IMTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC3BC6271E471AAB00B6CBB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3BC6281E471AAB00B6CBB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC3BC62C1E471AAB00B6CBB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3BC62D1E471AAB00B6CBB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC3BC6301E471AAB00B6CBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC3BC6311E471AAB00B6CBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC3BC6331E471AAB00B6CBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4CC8DC1D398A5A35BDCB062 /* Pods-iMaX Player.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98Z7323ZL5;
+				INFOPLIST_FILE = "iMaX Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.iMax.iMaX-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC3BC6341E471AAB00B6CBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB27B12AD40A8004FD106D1E /* Pods-iMaX Player.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98Z7323ZL5;
+				INFOPLIST_FILE = "iMaX Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.iMax.iMaX-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC3BC61B1E471AAB00B6CBB9 /* Build configuration list for PBXProject "iMaX Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3BC6301E471AAB00B6CBB9 /* Debug */,
+				BC3BC6311E471AAB00B6CBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3BC6321E471AAB00B6CBB9 /* Build configuration list for PBXNativeTarget "iMaX Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3BC6331E471AAB00B6CBB9 /* Debug */,
+				BC3BC6341E471AAB00B6CBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC3BC6181E471AAB00B6CBB9 /* Project object */;
+}

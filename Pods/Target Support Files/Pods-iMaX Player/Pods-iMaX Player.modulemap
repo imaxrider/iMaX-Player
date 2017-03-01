@@ -1,0 +1,6 @@
+framework module Pods_iMaX_Player {
+  umbrella header "Pods-iMaX Player-umbrella.h"
+
+  export *
+  module * { export * }
+}
