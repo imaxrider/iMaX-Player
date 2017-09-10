@@ -8,29 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		189419E36F329ADBB5E5D013 /* Pods_iMaX_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3017117004FC78973FA33003 /* Pods_iMaX_Player.framework */; };
-		BC352C581E5F35AD0061DD45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC352C571E5F35AD0061DD45 /* GoogleService-Info.plist */; };
+		BC3740431F659EDE0087DA5E /* Screen Shot 2560-09-10 at 23.24.01.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3740421F659EDE0087DA5E /* Screen Shot 2560-09-10 at 23.24.01.png */; };
+		BC396F2F1E784095005C0A45 /* PlayListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC396F2E1E784095005C0A45 /* PlayListTableViewController.swift */; };
 		BC3BC6241E471AAB00B6CBB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3BC6231E471AAB00B6CBB9 /* AppDelegate.swift */; };
-		BC3BC6261E471AAB00B6CBB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3BC6251E471AAB00B6CBB9 /* ViewController.swift */; };
 		BC3BC6291E471AAB00B6CBB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3BC6271E471AAB00B6CBB9 /* Main.storyboard */; };
 		BC3BC62B1E471AAB00B6CBB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3BC62A1E471AAB00B6CBB9 /* Assets.xcassets */; };
 		BC3BC62E1E471AAB00B6CBB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3BC62C1E471AAB00B6CBB9 /* LaunchScreen.storyboard */; };
-		BC6C3E731E609AAC00E896AA /* IMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6C3E721E609AAC00E896AA /* IMTextField.swift */; };
-		BC6C3E751E609B4900E896AA /* IMTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6C3E741E609B4900E896AA /* IMTextField.xib */; };
+		BC7AEAE61E7AD9A900596B98 /* PlayListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7AEAE51E7AD9A900596B98 /* PlayListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3017117004FC78973FA33003 /* Pods_iMaX_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMaX_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CC8DC1D398A5A35BDCB062 /* Pods-iMaX Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMaX Player.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMaX Player/Pods-iMaX Player.debug.xcconfig"; sourceTree = "<group>"; };
-		BC352C571E5F35AD0061DD45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC3740421F659EDE0087DA5E /* Screen Shot 2560-09-10 at 23.24.01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2560-09-10 at 23.24.01.png"; sourceTree = "<group>"; };
+		BC396F2E1E784095005C0A45 /* PlayListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayListTableViewController.swift; sourceTree = "<group>"; };
 		BC3BC6201E471AAB00B6CBB9 /* iMaX Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iMaX Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3BC6231E471AAB00B6CBB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC3BC6251E471AAB00B6CBB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC3BC6281E471AAB00B6CBB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC3BC62A1E471AAB00B6CBB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC3BC62D1E471AAB00B6CBB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC3BC62F1E471AAB00B6CBB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC6C3E721E609AAC00E896AA /* IMTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMTextField.swift; sourceTree = "<group>"; };
-		BC6C3E741E609B4900E896AA /* IMTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IMTextField.xib; sourceTree = "<group>"; };
+		BC7AEAE51E7AD9A900596B98 /* PlayListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayListCell.swift; sourceTree = "<group>"; };
 		FB27B12AD40A8004FD106D1E /* Pods-iMaX Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMaX Player.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMaX Player/Pods-iMaX Player.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,25 +74,16 @@
 		BC3BC6221E471AAB00B6CBB9 /* iMaX Player */ = {
 			isa = PBXGroup;
 			children = (
-				BC6C3E711E609A7600E896AA /* API Textfield */,
+				BC3740421F659EDE0087DA5E /* Screen Shot 2560-09-10 at 23.24.01.png */,
 				BC3BC6231E471AAB00B6CBB9 /* AppDelegate.swift */,
-				BC3BC6251E471AAB00B6CBB9 /* ViewController.swift */,
+				BC396F2E1E784095005C0A45 /* PlayListTableViewController.swift */,
+				BC7AEAE51E7AD9A900596B98 /* PlayListCell.swift */,
 				BC3BC6271E471AAB00B6CBB9 /* Main.storyboard */,
 				BC3BC62A1E471AAB00B6CBB9 /* Assets.xcassets */,
 				BC3BC62C1E471AAB00B6CBB9 /* LaunchScreen.storyboard */,
-				BC352C571E5F35AD0061DD45 /* GoogleService-Info.plist */,
 				BC3BC62F1E471AAB00B6CBB9 /* Info.plist */,
 			);
 			path = "iMaX Player";
-			sourceTree = "<group>";
-		};
-		BC6C3E711E609A7600E896AA /* API Textfield */ = {
-			isa = PBXGroup;
-			children = (
-				BC6C3E721E609AAC00E896AA /* IMTextField.swift */,
-				BC6C3E741E609B4900E896AA /* IMTextField.xib */,
-			);
-			name = "API Textfield";
 			sourceTree = "<group>";
 		};
 		D066A7F1B831EA6B42479CE4 /* Frameworks */ = {
@@ -168,9 +157,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC6C3E751E609B4900E896AA /* IMTextField.xib in Resources */,
 				BC3BC62E1E471AAB00B6CBB9 /* LaunchScreen.storyboard in Resources */,
-				BC352C581E5F35AD0061DD45 /* GoogleService-Info.plist in Resources */,
+				BC3740431F659EDE0087DA5E /* Screen Shot 2560-09-10 at 23.24.01.png in Resources */,
 				BC3BC62B1E471AAB00B6CBB9 /* Assets.xcassets in Resources */,
 				BC3BC6291E471AAB00B6CBB9 /* Main.storyboard in Resources */,
 			);
@@ -231,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC3BC6261E471AAB00B6CBB9 /* ViewController.swift in Sources */,
 				BC3BC6241E471AAB00B6CBB9 /* AppDelegate.swift in Sources */,
-				BC6C3E731E609AAC00E896AA /* IMTextField.swift in Sources */,
+				BC396F2F1E784095005C0A45 /* PlayListTableViewController.swift in Sources */,
+				BC7AEAE61E7AD9A900596B98 /* PlayListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
